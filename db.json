@@ -1,32 +1,14 @@
-[
-  {
-    "type": "student",
-    "id": "12345678",
-    "password": "password",
-    "registered": true
-  },
-  {
-    "type": "student",
-    "id": "97116331",
-    "password": "password",
-    "registered": false
-  },
-  {
-    "type": "student",
-    "id": "98105873",
-    "password": "password",
-    "registered": false
-  },
-  {
-    "type": "admin",
-    "id": "11230099",
-    "password": "password",
-    "registered": true
-  },
-  {
-    "type": "admin",
-    "id": "14558877",
-    "password": "password",
-    "registered": true
+{
+  "products": [
+    { "prduct_id": 696790, "title": "wow it worked" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
